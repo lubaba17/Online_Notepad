@@ -25,6 +25,10 @@ body{
 	margin: 0 auto;
 	padding: 3.5rem 0;
 }
+.notey{
+    float: right;
+}
+
 .clearfix:before, clearfix:after{
 	content: " ";
 	display: table;
@@ -37,12 +41,14 @@ button, .button{
 	border: none;
 	outline: none;
 	background: $green;
-	padding: 1rem 3.5rem;
-	border-radius: 2rem;
+	padding: 0.2rem 1.2rem;
+	border-radius: 1.3rem;
+	margin: 2;
     a{
     	color: white;
     	text-decoration: none;
-    }
+
+     }
 }
 
 .button{
@@ -62,22 +68,26 @@ a{
  	position: fixed;
  	top: 0;
  	width: 100%;
- 	padding: 1.75rem 0;
+ 	height: 15%;
+ 	padding: 0rem 0;
  	border-bottom: 7px solid $green;
- 	.header_liner{
+ 	.header_inner{
  		width: 90%;
  		margin: 0 auto;
- 		#logo{
+ 		i{
  			display: inline-block;
- 			width: 10rem;
+ 			font-size: 5rem;
  			float: left;
+ 			color: $green;
+ 			position: fixed;
  		}
+ 		
  		nav{
  			float: right;
  			a{
 	text-decoration: none;
 	color: white;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	line-height: 1.5;
 	margin-left: 1rem;
 	&:hover{
